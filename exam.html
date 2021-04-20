@@ -1,0 +1,89 @@
+<html>
+
+<head>
+  <title>HTML Table</title>
+
+  <style type="text/css">
+    
+    table{
+      background-color: yellow;
+      border: 1px solid black;
+    }
+
+    table td input, textarea{
+      background-color: red;
+      color: black;
+      font-family: "Times New Roman";
+    }
+
+
+
+    button{
+      background-color: blue;
+    }
+
+   
+  </style>
+</head>
+
+<body>
+  <form method="" action="">
+    <table  cellspacing="30px;">
+      <tr> 
+        <td style="text-align: center;" colspan="2" >Job Portal</td>
+      </tr>
+
+      <tr> 
+        <td><label>Name</label></td>
+        <td><input type="text"/></td>
+      </tr>
+      <tr>
+        <td><label>Father's Name</label></td>
+        <td><input type="text" /></td>
+      </tr>
+        <td><label>Address</label></td>
+        <td><textarea rows="3" cols="23"></textarea></td>
+      </tr>
+      <tr>
+        <td><label>Educational Qualification</label></td>
+        <td>
+          <input type="radio" /><span>Post Graduate</span>
+          <input type="radio" /><span>Graduate</span>
+          <input type="radio" /><span>Doctrate</span>
+         
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><label>Post you are applying for</label></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="checkbox"><span>Teaching</span>
+          <input type="checkbox"><span>Company Job</span>
+          <input type="checkbox"><span>Govt.Service</span>
+        </td>
+     </tr>
+      <tr>
+        <th><label>State to which you belong to</label> </th>
+        <td>
+          <select>
+            <option value=""></option>
+            <option value="1">Andhra Pradesh</option>
+            <option value="2">Telangana</option>
+            <option value="2">Delhi</option>
+          </select>
+        </td>
+      </tr>
+     
+      <tr>
+        <td colspan="2" align="center">
+          <button type="submit" value="Submit" >Submit</button>
+          <span></span><span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="submit" value="Submit" > Reset</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
